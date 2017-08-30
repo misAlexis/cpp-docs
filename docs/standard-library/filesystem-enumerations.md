@@ -79,7 +79,7 @@ enum class directory_options {
 |`follow_directory_symlink`|Treat symbolic links to directories as actual directories.|  
   
 ##  <a name="file_type"></a>  file_type
-An enumeration for file types. The supported values are regular, and directory, not_found and unknown.  
+An enumeration for file types. The supported values are regular, directory, not_found, and unknown.  
   
 ### Syntax  
 ```cpp  
@@ -87,7 +87,7 @@ enum class file_type {
     not_found = -1, 
     none, 
     regular, 
-    directory, 
+    directory,
     symlink,
     block, 
     character, 
